@@ -1,0 +1,1 @@
+# SimpleGame [![Build status](https://ci.appveyor.com/api/projects/status/joq8nuei327dgwox?svg=true)](https://ci.appveyor.com/project/Alexander2327/dom)

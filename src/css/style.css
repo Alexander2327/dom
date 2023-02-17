@@ -1,0 +1,19 @@
+.game-field {
+	display: table;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+}
+
+.row {
+	display: table-row;
+}
+
+.row div {
+	display: table-cell;
+	border: 2px solid black;
+}
+
+.active {
+    background-image: url('../img/goblin.png');
+}
