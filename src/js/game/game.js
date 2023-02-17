@@ -1,10 +1,11 @@
+/* eslint-disable linebreak-style */
 export default class Game {
-    constructor (element) {
-        this._element = element;
+    constructor(element) {
+        this.element = element;
     }
 
-    addCellImg (index) {
-        const cells = this._element.querySelectorAll('.cell');
+    addCellImg(index) {
+        const cells = this.element.querySelectorAll('.cell');
 
         for (const cell of cells) {
             if (cell.dataset.id == index) {
@@ -14,8 +15,8 @@ export default class Game {
         }
     }
 
-    deleteCellImg (index) {
-        const cells = this._element.querySelectorAll('.cell');
+    deleteCellImg(index) {
+        const cells = this.element.querySelectorAll('.cell');
 
         for (const cell of cells) {
             if (cell.dataset.id == index) {
