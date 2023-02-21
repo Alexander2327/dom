@@ -1,8 +1,22 @@
+.game {
+	display: flex;
+    text-align: center;
+    justify-content: center;
+	margin-top: 50px;
+}
+
 .game-field {
 	display: table;
 	width: 500px;
 	height: 500px;
 	border: 2px solid black;
+}
+
+.game-resutls {
+	border: red 2px solid;
+	height: 50px;
+	margin: 40px;
+	padding: 20px;
 }
 
 .row {
@@ -16,4 +30,12 @@
 
 .active {
     background-image: url('../img/goblin.png');
+}
+
+.score-item {
+	font-size: 20px;
+}
+
+.loose-score-item {
+	font-size: 20px;
 }
